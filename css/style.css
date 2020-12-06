@@ -476,8 +476,7 @@ abbr[title] {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto 1fr;
-  grid-template-areas: "figure header"
- "figure section";
+  grid-template-areas: "figure header" "figure section";
   align-items: center;
 }
 
@@ -492,8 +491,7 @@ abbr[title] {
 
 .project-item:nth-of-type(even) article {
   grid-template-columns: 1fr auto;
-  grid-template-areas: "header figure"
- "section figure";
+  grid-template-areas: "header figure" "section figure";
 }
 
 .project-item:nth-of-type(even) .project-item-picture {
@@ -579,8 +577,7 @@ abbr[title] {
 .skills__item {
   display: grid;
   grid-template-columns: 8rem 1fr;
-  grid-template-areas: "icon description"
- "header description";
+  grid-template-areas: "icon description" "header description";
   justify-items: center;
   align-items: center;
   margin-bottom: 3rem;
@@ -700,9 +697,7 @@ abbr[title] {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     align-content: center;
-    grid-template-areas: "figure"
- "header"
- "section";
+    grid-template-areas: "figure" "header" "section";
   }
   .project-item .project-item-picture, .project-item:nth-of-type(even) .project-item-picture {
     justify-content: center;

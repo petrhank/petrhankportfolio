@@ -32,7 +32,7 @@ mainNavAnchors.forEach(function(anchor){
         if(media.matches){
             hideNav();
         }
-    })  
+    });  
 });
 
 //Změna barvy tlačítka nav-toggle

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<!-- info -->
+    <meta charset="utf-8">
+    <meta name="description" content="popis webu">
+    <meta name="author" content="Petr Hank">
+    <title>Petr Hank | Frond-End Developer   </title>
+<!--  -->
+    <meta name="google" content="notranslate"> <!-- Vypíná nabídku překladu v Google Chrome -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="img/icons/favicon.svg" type="image/x-icon">
+<!-- style -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav" role="navigation">    
+            <a href="#">Domů</a>
+            <a href="#projects">Projekty</a>
+            <a href="#about">O mně</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+        <button class="nav__toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="header__greet">
+            <div>Ahoj, já jsem</div>
+            <h1>Petr Hank</h1>
+            <div>frond-end developer &#8226; klavírista &#8226;&nbsp;skladatel</div>
+        </div>
+    </header>
+
+    <main>
+        <section id="projects">
+            <header class="section__header">
+                <h2>Mé projekty</h2>
+            </header>
+            <div class="project-item">
+                <article>
+                    <figure class="project-item-picture">
+                        <img src="img/symphony-box.jpg" alt="symphony box náhled">
+                        <a href="https://petrhank.github.io/symphonybox/" class="project-item-picture__anchor" target="_blank">
+                            <div class="project-item-picture__overlay"><i class="fas fa-external-link-alt"></i></div>
+                        </a>
+                    </figure>
+                    <header>
+                        <h3>Symphony Box</h3>
+                    </header>
+                    <section class="project-item-description">
+                        <p>Symphony Box je webová aplikace, která přehrává orchestrální zvukovou smyčku a umožňuje uživateli přidávat nebo odebírat jednotlivé nástroje a sekce. Uživatel tak může zkoumat, jakou roli má v dané kompozici každý nástroj a má možnost je kombinovat dle své libosti. Symphony Box je kromě projektu do mého front-end portfolia i mou skladatelskou tvorbou.</p>
+                        <a href="https://petrhank.github.io/symphonybox/" target="_blank" class="project-item-description__btn">Přejít</a>
+                        <h4>Použité technologie</h4>
+                        <ul class="project-item-description__tool-list">
+                            <li><a href="#"><i class="fab fa-html5"></i></a></li>
+                            <li><a href="#"><i class="fab fa-css3-alt"></i></a></li>
+                            <li><a href="#"><i class="fab fa-sass"></i></a></li>
+                            <li><a href="#"><i class="fab fa-js"></i></a></li>
+                            <li><a href="#"><img src="img/icons/howlericon.png" alt="howler.js ikona"></a></li>
+                        </ul>
+                    </section>
+                </article>
+            </div>
+    
+            <div class="project-item">
+                <article>
+                    <figure class="project-item-picture">
+                        <img src="img/silvie-hanková.jpg" alt="silvie hanková náhled">
+                        <a href="https://petrhank.github.io/silviehankova/" class="project-item-picture__anchor" target="_blank">
+                            <div class="project-item-picture__overlay"><i class="fas fa-external-link-alt"></i></div>
+                        </a>    
+                    </figure>
+                    <header>
+                        <h3>Silvie Hanková | Modeláž nehtů, manikúra</h3>
+                    </header>
+                    <section class="project-item-description">
+                        <p>Tento projekt je osobním portfoliem vrchlabské manikérky Silvie Hankové. Pro získání nových zkušeností jsem při jeho vytváření použil framework Bootstrap a knihovnu jQuery.</p>
+                        <a href="https://petrhank.github.io/silviehankova/" target="_blank" class="project-item-description__btn">Přejít</a>
+                        <h4>Použité technologie</h4>
+                        <ul class="project-item-description__tool-list">
+                            <li><a href="#"><i class="fab fa-html5"></i></a></li>
+                            <li><a href="#"><i class="fab fa-css3-alt"></i></a></li>
+                            <li><a href="#"><i class="fab fa-sass"></i></a></li>
+                            <li><a href="#"><i class="fab fa-bootstrap"></i></a></li>
+                            <li><a href="#"><img src="img/icons/iconfinder_jquery_2333384.svg" alt="jquery ikona"></a></li>
+                        </ul>
+                    </section>
+                </article>
+            </div>
+    
+            <div class="project-item">
+                <article>
+                    <figure class="project-item-picture">
+                        <img src="img/color-game.jpg" alt="rgb color game náhled">
+                        <a href="https://petrhank.github.io/colorgame/" class="project-item-picture__anchor" target="_blank">
+                            <div class="project-item-picture__overlay"><i class="fas fa-external-link-alt"></i></div>
+                        </a>
+                    </figure>
+                    <header>
+                         <h3>RGB Color Game</h3>
+                    </header>
+                    <section class="project-item-description">
+                        <p>RGB Color Game je malá hra, kde hráč tipuje, která z vyobrazených barev odpovídá vygenerovanému rgb kódu. Základní verze tohoto projektu pochází z kurzu The Web Developer Bootcamp od Colta Steeleho. Má verze je zčásti přepracována, aby byla responzivní, dala se hrát i na mobilních zařízeních a pro ty, kteří se s rgb zápisem nesetkali, jsem přidal i novou sekci s nápovědou.</p>
+                        <a href="https://petrhank.github.io/colorgame/" target="_blank" class="project-item-description__btn">Přejít</a>
+                        <h4>Použité technologie</h4>
+                        <ul class="project-item-description__tool-list">
+                            <li><a href="#"><i class="fab fa-html5"></i></a></li>
+                            <li><a href="#"><i class="fab fa-css3-alt"></i></a></li>
+                            <li><a href="#"><i class="fab fa-js"></i></a></li>
+                            <li><a href="#"><img src="img/icons/iconfinder_jquery_2333384.svg" alt="jquery ikona"></a></li>
+                        </ul>
+                    </section>
+                </article>
+            </div>
+        </section>
+    
+        <section id="about">
+            <header class="section__header">
+                <h2>O mně</h2>
+            </header>
+            <div class="content-wrapper">
+                <div class="content-container">
+                    <section id="who-am-i">
+                        <h3>Kdo jsem?</h3>
+                        <p>Jmenuji se Petr. Narodil jsem se ve Vrchlabí a nyní již třetím rokem žiji v našem hlavním městě.</p>
+                        <p>V květnu 2020 jsem, spíše pro zábavu, začal studovat programování webových stránek. To, co se ze začátku zdálo být koníčkem, brzy přerostlo ve směr, kterým se chci vydat na profesní dráze, a tak jsem programování začal věnovat většinu svého volného času.</p>
+                        <p>Za tu dobu se mi povedlo získat solidní znalost HTML, CSS a základy JavaScriptu, ve kterém se stále zdokonaluji. V budoucnu bych se také kromě front-endu rád naučil alespoň základy back-endu.</p>
+                        <p>Miluji hudbu, výlety do přírody, svou přítelkyni a naší fenku chodského psa, Aiwy.</p>
+                    </section>
+                    <hr class="vertical-line">
+                    <section id="skills">
+                        <h3>Zkušenosti</h3>
+                        <ul>
+                            <li class="skills__item">
+                                <a href="https://cs.wikipedia.org/wiki/HTML5" target="_blank" title="HTML5">
+                                    <i class="fab fa-html5"></i>
+                                </a>
+                                <h4>HTML</h4>
+                                <p>V HTML mi jde hlavně o to, aby byl kód sémantický, čitelný a aby se v něm dalo dobře orientovat.</p>
+                            </li>
+                            <li class="skills__item">
+                                <a href="https://cs.wikipedia.org/wiki/CSS3" target="_blank" title="CSS3">
+                                    <i class="fab fa-css3-alt"></i>
+                                </a>
+                                <h4>CSS</h4>
+                                <p>V CSS používám moderní postupy pro dosažení responzivnosti webu, rád pracuji s CSS Gridem a Flexboxem.</p>
+                            </li>
+                            <li class="skills__item">
+                                <a href="https://sass-lang.com/" target="_blank" title="SASS">
+                                    <i class="fab fa-sass"></i>
+                                </a>
+                                <h4>SASS</h4>
+                                <p>Preprocesor, který značně usnadňuje práci s CSS a zpřehledňuje kód. Používám ho denně.</p>
+                            </li>
+                            <li class="skills__item">
+                                <a href="https://cs.wikipedia.org/wiki/JavaScript" target="_blank" title="JavaScript">
+                                    <i class="fab fa-js"></i>
+                                </a>
+                                <h4>Javascript</h4>
+                                <p>JavaScript stále studuji. Nyní umím základy, jako funkce, pole, objekty, manipulaci s DOM, a další. Stále se učím a zdokonaluji.</p>
+                            </li>
+                            <li class="skills__item--others">
+                                <p>Dále pracuji také s:</p>
+                                <a href="https://getbootstrap.com/" target="_blank" title="Bootstrap">
+                                    <i class="fab fa-bootstrap"></i>
+                                </a>
+                                <a href="https://jquery.com/" target="_blank" title="jQuery">
+                                    <img src="img/icons/iconfinder_jquery_2333384.svg" alt="jquery ikona">  
+                                </a>
+                                <a href="https://howlerjs.com/" target="_blank" title="howler.js">
+                                    <img src="img/icons/howlericon.png" class="non-scalable-icon" alt="howler.js ikona">
+                                </a>
+                                <a href="https://code.visualstudio.com/" target="_blank" title="Visual Studio Code">
+                                    <img src="img/icons/visual-226058-black.svg" class="non-scalable-icon" alt="visual studio code ikona">
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="contact">
+                        <div class="contact__avatar">
+                            <img src="img/icons/iconfinder_web-browser-on-laptop_4417111.svg" alt="avatar laptop">
+                        </div>
+                        <address class="address">
+                            <div class="address__item">
+                                <i class="fas fa-user"></i>
+                                <h4>Jméno</h4>
+                                <p>Petr Hank</p>
+                            </div>
+                            <div class="address__item">
+                                <i class="fas fa-envelope"></i>
+                                <h4>E-mail</h4>
+                                <a href="mailto:peetr.hank@gmail.com">peetr.hank@gmail.com</a>
+                            </div>
+                            <div class="address__item">
+                                <i class="fas fa-mobile"></i>
+                                <h4>Telefon</h4>
+                                <a href="tel:+420-733-284-404">733 284 404</a>
+                            </div>
+                        </address>
+                    </section>
+                </div> 
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/petrhank/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/petrhank" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/c/PetrHank" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="copy">
+            © 2020 Petr Hank All Rights Reserved 
+        </div>
+    </footer>
+
+<!--JavaScript-->
+    <script src="https://kit.fontawesome.com/37fd641ca5.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

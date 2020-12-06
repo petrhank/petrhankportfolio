@@ -1,0 +1,16 @@
+.project-item-description__btn{
+    position: relative;
+    border: 2px solid $dark-text-color;
+    color: $dark-text-color;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to right, black 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 400ms ease-out;
+}

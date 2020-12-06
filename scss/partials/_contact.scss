@@ -1,0 +1,18 @@
+#contact{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: stretch;
+    margin: 1rem;
+    box-shadow: $box-shadow-regular;
+    border-radius: $border-radius-regular;
+    overflow: hidden;
+    a:hover{
+        color: $dark-text-color-hover;
+    }
+}
+
+.animate__swing {
+    transform-origin: top center;
+    animation-name: swing;
+    animation-duration: 1s;
+}

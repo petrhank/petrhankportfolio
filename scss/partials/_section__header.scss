@@ -1,0 +1,17 @@
+.section__header{
+    text-align: center;
+    align-self: stretch;
+    h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        margin: 3rem 0;
+    }
+    h2::before{
+        @include h2-decorative-line(right);
+    }
+    h2::after{
+        @include h2-decorative-line(left);
+    }
+}

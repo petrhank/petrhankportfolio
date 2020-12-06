@@ -1,0 +1,37 @@
+.project-item{
+    display: flex;  //Pro vycentrování článku
+    align-items: center;    //Vycentrování článku
+    justify-content: center;    //Vycentrování v případě dosažení max-width článku
+    background-color: $background-color-alt;
+    padding: $project-item-padding-Y 5vw $project-item-padding-Y 5vw;
+    margin-top: -$project-item-padding-Y;
+    clip-path: polygon(0 0%+$project-item-clip, 100% 0, 100% 100%, 0 100%-$project-item-clip);
+    article{
+        max-width: 60rem;
+        flex: 1;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto 1fr;
+        grid-template-areas: 
+            "figure header"
+            "figure section";
+        align-items: center;
+    }
+    header{
+        grid-area: header;
+    }
+    &:nth-of-type(even){
+        background-color: $background-color;
+        clip-path: polygon(0 0, 100% 0%+$project-item-clip, 100% 100%-$project-item-clip, 0 100%);
+        article{
+            grid-template-columns: 1fr auto;
+            grid-template-areas: 
+                "header figure"
+                "section figure";
+        }
+        .project-item-picture{
+            margin: 3rem 0 3rem 2rem;
+        }
+    }
+}
+

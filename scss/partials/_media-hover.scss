@@ -1,0 +1,18 @@
+@media (hover: hover){
+    .rotate-icon i{
+            animation: skills-icon-rotate 1500ms ease backwards;
+    }
+    .project-item-picture:hover a{
+        opacity: 1;
+    }
+    .project-item-description__btn:hover{
+        color: $bright-text-color;
+        background-position: bottom left;
+    }
+    .nav a:hover{
+        color: $dark-text-color-hover;
+    }
+    .footer a:hover{
+        color: $background-color-alt;
+    }
+}

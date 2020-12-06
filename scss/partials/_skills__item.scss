@@ -1,0 +1,24 @@
+.skills__item{
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    grid-template-areas: 
+        "icon description"
+        "header description";
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    a{
+        grid-area: icon;
+    }
+    h4{
+        grid-area: header;
+        margin: 0;
+    }
+    p{
+        grid-area: description;
+        margin: 0;
+        justify-self: start;
+    }
+}

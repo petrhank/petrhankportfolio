@@ -1,0 +1,17 @@
+.skills__item--others{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    a{
+        display: flex;
+        align-items: center;
+        margin: 0 .5rem;
+    }
+    p{
+        flex-basis: 100%;
+        margin-top: 0;
+        text-align: center;
+    }
+}

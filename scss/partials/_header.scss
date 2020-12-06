@@ -1,0 +1,15 @@
+.header{
+    background-color: $background-color;
+}
+
+.header__greet{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h1{
+        margin: 0;
+    }
+}

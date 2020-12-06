@@ -1,0 +1,30 @@
+.project-item-picture{
+    grid-area: figure;
+    margin: 3rem 2rem 3rem 0;
+    display: grid;
+    grid-template-areas: "overlay";
+    img{
+        grid-area: overlay;
+        width: 18rem;
+        max-width: 350px;
+        border-radius: $border-radius-regular;
+        box-shadow: $box-shadow-regular;
+    }
+}
+
+.project-item-picture__anchor{
+    grid-area: overlay;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease;
+    opacity: 0;
+    border-radius: $border-radius-regular;
+}
+
+
+.project-item-picture__overlay{
+    color: $bright-text-color;
+    font-size: 3rem;
+}

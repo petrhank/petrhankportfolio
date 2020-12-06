@@ -1,0 +1,11 @@
+.contact__avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $background-color-alt;
+    width: 100%;
+    padding: .5rem;
+    img{
+        width: 10rem;
+    }
+}

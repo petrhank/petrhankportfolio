@@ -1,0 +1,8 @@
+@mixin h2-decorative-line($direction){
+    content:'';
+    display: inline-block;
+    width: 50%;
+    height: .1rem;
+    background-image: linear-gradient(to $direction, black, black);
+    margin: 0 2rem;
+};

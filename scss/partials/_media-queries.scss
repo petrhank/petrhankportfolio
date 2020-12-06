@@ -1,0 +1,111 @@
+@media screen and (max-width: 1000px){
+    //ABOUT
+    #about .content-container{
+        grid-template-columns: 1fr;
+    }
+    #who-am-i{
+        grid-row: auto;
+        text-align: center;
+    }
+    #skills{
+        grid-row: auto;
+    }
+    .vertical-line{
+        grid-row: auto;
+        margin: 3rem 0;
+        width: 100%;
+        height: .1rem;
+    }
+    #contact{
+        grid-row: auto;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    #about h3{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 740px){
+    //  NAVIGATION
+    .nav{
+        flex-direction: column;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+
+        transform-origin: top;
+        transform: scaleY(0);
+        a{
+            opacity: 0;
+        }
+        &.nav--show{
+            animation: nav-show 300ms ease forwards;
+            a{
+                animation: nav-anchor-show 300ms ease forwards;
+            }
+
+        }
+        &.nav--hide{
+            animation: nav-hide 300ms ease 300ms backwards;
+            a{
+                animation: nav-anchor-hide 100ms ease backwards;
+            }
+        }
+    }
+    .nav__toggle{
+        display: block;
+    }
+
+    //  PROJECTS
+    .project-item, .project-item:nth-of-type(even){
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 5rem 5vw 5rem 5vw;
+        article{
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+            align-content: center;
+            grid-template-areas: 
+            "figure"
+            "header"
+            "section";
+        }
+        .project-item-picture{
+            justify-content: center;
+            margin: 0;
+            img{
+                width: 100%;
+            }
+
+        }
+    }
+    .project-item{
+        clip-path: polygon(0 0%+$project-item-clip-mobile, 100% 0, 100% 100%, 0 100%-$project-item-clip-mobile);
+    }
+    
+    .project-item:nth-of-type(even){
+        clip-path: polygon(0 0, 100% 0%+$project-item-clip-mobile, 100% 100%-$project-item-clip-mobile, 0 100%);
+
+    }
+
+    #projects{
+        h2{
+            margin-bottom: 4rem;
+        }
+        h3{
+            margin-top: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    #contact{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        justify-self: stretch;
+    }
+}

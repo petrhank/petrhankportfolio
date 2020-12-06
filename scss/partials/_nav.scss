@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    background-color: $background-color;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    a{
+        margin: 0 2rem;
+    }
+}
+
+.nav__toggle{
+    display: none;
+    font-size: 2rem;
+    font-weight: 100;
+    background: none;
+    outline: none;
+    border: none;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2;
+    cursor: pointer;
+    padding: 0;
+    &.scrolled{
+        opacity: .4;
+    }
+}

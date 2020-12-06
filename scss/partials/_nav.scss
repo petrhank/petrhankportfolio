@@ -5,7 +5,10 @@
     align-items: center;
     height: 3rem;
     a{
-        margin: 0 2rem;
+        margin: 0 3rem;
+    }
+    a:first-of-type{
+        display: none;
     }
 }
 

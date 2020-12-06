@@ -35,7 +35,7 @@ body {
   padding: 0 1rem;
 }
 
-.address__item {
+.address-item {
   display: grid;
   grid-template-columns: 3rem 1fr;
   grid-template-rows: 1fr 1fr;
@@ -43,17 +43,18 @@ body {
   margin: 1rem 0;
 }
 
-.address__item i {
+.address-item i {
   grid-row: 1/-1;
   justify-self: center;
   font-size: 2rem;
 }
 
-.address__item h4 {
+.address-item__title {
   margin: 0;
+  font-weight: 700;
 }
 
-.address__item p, .address__item a {
+.address-item__value {
   margin: 0 0 0 .5rem;
 }
 

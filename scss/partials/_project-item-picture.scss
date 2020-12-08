@@ -9,6 +9,7 @@
         max-width: 350px;
         border-radius: $border-radius-regular;
         box-shadow: $box-shadow-regular;
+        pointer-events: none;
     }
 }
 

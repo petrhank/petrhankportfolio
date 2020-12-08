@@ -442,6 +442,7 @@ abbr[title] {
   max-width: 350px;
   border-radius: 5px;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
 }
 
 .project-item-picture__anchor {

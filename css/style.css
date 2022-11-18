@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #F0E1BC;
+  background-color: #f0e1bc;
   font-family: 'Quicksand', sans-serif;
   color: black;
 }
@@ -180,7 +180,7 @@ abbr[title] {
 
 /*------------------KONEC------------------CORE.CSS------------------KONEC------------------*/
 .header {
-  background-color: #F0E1BC;
+  background-color: #f0e1bc;
 }
 
 .header__greet {
@@ -324,7 +324,7 @@ abbr[title] {
 
 .footer {
   background-color: #1a1a1a;
-  color: #F0E1BC;
+  color: #f0e1bc;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -345,7 +345,7 @@ abbr[title] {
 
 .nav {
   display: flex;
-  background-color: #F0E1BC;
+  background-color: #f0e1bc;
   justify-content: center;
   align-items: center;
   height: 3rem;
@@ -486,7 +486,7 @@ abbr[title] {
 }
 
 .project-item:nth-of-type(even) {
-  background-color: #F0E1BC;
+  background-color: #f0e1bc;
   clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
 }
 
